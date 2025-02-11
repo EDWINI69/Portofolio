@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/style.css" />
+    <link rel="stylesheet" href="./stylemain.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body class="bg-gray-900 text-gray-200">
+    <div id="inicio" class="bg-gray-950 p-5">
+      <header
+        class="flex justify-between items-center max-w-[80rem] mx-auto font-bold"
+      >
+        <div>
+          <a href="#" class="font-bold text-2xl">EDWINI</a>
+        </div>
+        <nav>
+          <ul class="flex flex-wrap gap-8 text-lg">
+            <li><a href="#aboutme">Sobre mí</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#abilities">Habilidades</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <div class="max-w-[80rem] relative mx-auto">
+      <div class="p-5 space-y-28">
+        <section
+          id="aboutme"
+          class="md:flex justify-between md:w-[90%] my-10 md:my-32"
+        >
+          <div class="p-5 md:w-[60%]">
+            <h2 class="font-bold text-5xl text-green-500">Edwin Morel</h2>
+            <h3 class="text-lg font-semibold text-white">
+              Desarrollador de Software
+            </h3>
+            <p>
+              Soy un desarrollador de software con ganas crecer en el mundo
+              profesional. Me considero una persona proactiva, con actitud de
+              aprendizaje y con muchas ganas de aportar valor a los proyectos en
+              los que participe.
+            </p>
+          </div>
+          <div class="relative">
+            <img
+              src="../src/img/hack coding GIF by Matthew Butler.gif"
+              alt=""
+              class="mix-blend-lighten md:scale-125 md:ml-16 blurry absolute invisible md:relative md:visible bottom-0 rounded-md"
+            />
+          </div>
+        </section>
+        <section id="projects">
+          <div class="">
+            <h2 class="font-bold text-3xl mb-10">Proyectos</h2>
+            <div class="flex flex-wrap gap-10 content-center justify-center">
+              <div
+                class="card shadow-lg shadow-white/20 transition-all duration-200 ease-in-out hover:scale-105 overflow-hidden"
+              >
+                <img
+                  src="../src/img/MS/ms1.jpeg"
+                  class="rounded-t-lg -m-4 absolute top-8 scale-[121%] flex flex-wrap-reverse"
+                  alt="Medical System"
+                />
+                <h3 class="mt-[12rem] font-bold text-xl">Registro Médico</h3>
+                <p class="mt-2">
+                  Plataforma donde un paciente puede ver su información médica
+                  de manera comoda e intuitiva.
+                </p>
+                <div class="flex gap-1 mb-2 text-xs mt-auto">
+                  <p class="bg-purple-600 rounded-full p-1 px-2">React</p>
+                  <p class="bg-purple-600 rounded-full p-1 px-2">Tailwind</p>
+                </div>
+                <a
+                  href="./registromedico.html"
+                  class="p-1 text-white bg-purple-700 rounded-full cursor-pointer flex justify-center hover:bg-purple-800"
+                  >Ver proyecto</a
+                >
+              </div>
+              <div
+                class="card shadow-lg shadow-white/20 transition-all duration-200 ease-in-out hover:scale-105 overflow-hidden"
+              >
+                <img
+                  src="../src/img/SisVentas/svCategoria.png"
+                  class="rounded-t-lg -m-4 absolute -top-2.5 scale-[100%] w-full"
+                  alt="PokeInfo"
+                />
+                <h3 class="mt-[12rem] font-bold text-xl">Sistema de Ventas</h3>
+                <p class="mt-2">
+                  Programa con la función de gestionar el proceso de venta de
+                  productos y servicios de una tienda.
+                </p>
+                <div class="flex gap-1 mb-2 text-xs mt-auto">
+                  <p class="bg-purple-600 rounded-full text-white p-1 px-2">
+                    C#
+                  </p>
+                  <p class="bg-purple-600 rounded-full text-white p-1 px-2">
+                    SQL
+                  </p>
+                </div>
+                <a
+                  href="./sisventas.html"
+                  class="p-1 text-white bg-purple-700 rounded-full cursor-pointer flex justify-center hover:bg-purple-800"
+                  >Ver proyecto</a
+                >
+              </div>
+              <div
+                class="card shadow-lg shadow-white/20 transition-all duration-200 ease-in-out hover:scale-105"
+              >
+                <img
+                  src="../src/img/PokeInfo_img.png"
+                  class="rounded-t-lg -m-4 absolute w-full"
+                  alt="PokeInfo"
+                />
+                <h3 class="mt-[12rem] font-bold text-xl">PokeInfo</h3>
+                <p class="mt-2">
+                  Aplicación que utiliza la API de pokémon "PokeApi" para
+                  mostrar cierta infomación sobre un pokémon.
+                </p>
+                <div class="flex gap-1 mb-2 text-xs mt-auto">
+                  <p class="bg-purple-600 rounded-full text-white p-1 px-2">
+                    React
+                  </p>
+                  <p class="bg-purple-600 rounded-full text-white p-1 px-2">
+                    Tailwind
+                  </p>
+                  <p class="bg-purple-600 rounded-full text-white p-1 px-2">
+                    Css
+                  </p>
+                </div>
+                <a
+                  href="https://edwini69.github.io/PokeInfo"
+                  class="p-1 text-white bg-purple-700 rounded-full cursor-pointer flex justify-center hover:bg-purple-800"
+                  target="_blank"
+                  >Ver proyecto</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="abilities">
+          <div class="mb-5 whitespace-nowrap overflow-hidden">
+            <h2 class="font-bold text-3xl mb-10">Habilidades</h2>
+            <div class="flex min-w-max flex-nowrap">
+              <div class="animation-icons flex h-20">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                />
+
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                />
+
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                />
+
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                />
+
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
+                />
+
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"
+                />
+
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+                />
+              </div>
+              <div class="animation-icons flex h-20">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                />
+
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                />
+
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                />
+
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                />
+
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
+                />
+
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"
+                />
+
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contact">
+          <h2 class="font-bold text-3xl mb-5">Contacto</h2>
+          <div
+            class="md:flex justify-center items-center md:space-x-20 space-y-5 mb-10 md:m-20"
+          >
+            <div class="w-[22rem] text-gray-200">
+              Si deseas contactarme puedes hablarme a través de mi correo y
+              estaré contento de responder. ¡No dudes en escribirme!
+            </div>
+            <div class="flex gap-2">
+              <p
+                id="copy-contact"
+                class="bg-gray-200 text-black font-semibold text-xl border-4 border-blue-600 rounded-md flex items-center p-2 h-12"
+              >
+                edwinmoreldev@gmail.com
+              </p>
+
+              <button
+                class="px-3 w-12 h-12 bg-blue-600 font-bold rounded-md hover:bg-blue-700"
+                onclick="copytal()
+                "
+              >
+                <i class="fa-solid fa-copy text-lg"></i>
+              </button>
+              <button
+                class="px-3 w-12 h-12 bg-blue-600 font-bold rounded-md hover:bg-blue-700"
+                href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
+                target="_blank"
+              >
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <footer class="bg-gray-950 text-white absolute w-full h-20">
+      <div class="relative flex justify-center items-center">
+        <a
+          class="rounded-full bg-purple-700 absolute p-2 w-10 h-10 text-center"
+          href="#inicio"
+          ><i class="fa-solid fa-angles-up"></i
+        ></a>
+      </div>
+      <div class="font-semibold flex justify-center items-center mt-6">
+        <p class="">
+          Made by <span class="font-bold text-purple-500">Edwin(i)</span>
+        </p>
+      </div>
+    </footer>
+    <script>
+      const copy = "edwinmoreldev@gmail.com";
+      function copytal() {
+        navigator.clipboard.writeText(copy);
+        console.log("copiado", copy);
+      }
+    </script>
+  </body>
+</html>

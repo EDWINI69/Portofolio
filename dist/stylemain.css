@@ -1,0 +1,36 @@
+.bg-pp-img {
+  background-image: url(/src/img/unnamed.jpg);
+  background-size: cover;
+  backdrop-filter: blur(30px);
+}
+
+.animation-icons {
+  animation: mover 8s infinite linear;
+}
+
+.animation-icons img {
+  margin: 0 60px;
+}
+
+.blurry {
+  filter: blur(2px);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 16px;
+  width: 20rem;
+  height: 28rem;
+  border-radius: 8px;
+  background-image: linear-gradient(to top right, #1f2937, #111827);
+}
+
+@keyframes mover {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
